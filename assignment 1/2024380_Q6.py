@@ -5,12 +5,12 @@ def slope(x):
     return 3*x**2 - 21*x + 34.5
 
 def roots(x): 
-    for i in range(100):
+    while x<100:
         x1 = x - polynomail(x)/slope(x)
         if abs(x1-x) <= 0.2:
             return x1
         else:
-            if i != 99:
+            if x1 != x:
                 x = x1
             else:
                 return "No such root exists"
@@ -22,7 +22,7 @@ def test():
 
 test()
 
-x = int(input('Enter a starting point: '))
+x = float(input('Enter a starting point: '))
 print(roots(x))
 
 
@@ -37,5 +37,5 @@ def multi_roots(x,y):
             if y not in b:
                 b.append(y)
     return b
-#print(multi_roots(int(input('Enter a starting point: ')),int(input('Enter a ending point: '))))
+#print(multi_roots(float(input('Enter a starting point: ')),float(input('Enter a ending point: '))))
 
