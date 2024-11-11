@@ -1,0 +1,16 @@
+Alice:
+Bob, 1
+Charlie, 0
+David, 1
+Bob:
+Alice, 0
+Charlie, 1
+David, 0
+Charlie:
+Alice, 1
+Bob, 1
+David, 0
+David:
+Alice, 0
+Bob, 0
+Charlie, 1

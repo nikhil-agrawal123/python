@@ -1,0 +1,27 @@
+{
+    "John Doe": {
+        "address": "123 Main St, Anytown, USA",
+        "phone": "555-1234",
+        "email": "john.doe@example.com"
+    },
+    "Jane Smith": {
+        "address": "456 Elm St, Othertown, USA",
+        "phone": "555-5678",
+        "email": "jane.smith@example.com"
+    },
+    "Alice Johnson": {
+        "address": "789 Oak St, Sometown, USA",
+        "phone": "555-8765",
+        "email": "alice.johnson@example.com"
+    },
+    "nikhil": {
+        "address": "644",
+        "phone": "9811782280",
+        "email": "nikhil@gmail.com"
+    },
+    "nikhi": {
+        "address": "644 sector 8",
+        "phone": "9811782270",
+        "email": "nikh@gmail;.com"
+    }
+}
